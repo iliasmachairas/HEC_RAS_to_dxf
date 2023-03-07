@@ -1,0 +1,333 @@
+# RAS export file created on Fri 28Oct2022 13:13
+# by HEC-RAS Version 6.3.1
+
+BEGIN HEADER:
+  UNITS: 
+  DTM TYPE: 
+  DTM: 
+  STREAM LAYER: 
+  CROSS-SECTION LAYER: 
+  MAP PROJECTION: 
+  PROJECTION ZONE: 
+  DATUM: 
+  VERTICAL DATUM: 
+  BEGIN SPATIALEXTENT:
+    Xmin: -4323.28719692044
+    Ymin: 1901365.18756837
+    Xmax: 24002.2881876952
+    Ymax: 1928741.71665786
+  END SPATIALEXTENT:
+  NUMBER OF PROFILES:  0 
+  PROFILE NAMES: 
+  NUMBER OF REACHES:  3 
+  NUMBER OF CROSS-SECTIONS:  26 
+END HEADER:
+
+BEGINSTREAMNETWORK:
+
+ENDPOINT:16924.97,1920117.88, , 1
+ENDPOINT:16887.77,1927497.33, , 2
+ENDPOINT:22569.17,1924497.19, , 3
+ENDPOINT:-2271.65,1904439.59, , 4
+
+REACH: 
+ STREAM ID: River_1         
+ REACH ID: 1               
+ FROM POINT:  2 
+ TO POINT:  1 
+ CENTERLINE:
+     16887.77,     1927497.33, ,
+     16438.68,     1927117.33, ,
+     16101.20,     1926761.25, ,
+     16000.22,     1926259.01, ,
+     16045.40,     1925602.65, ,
+     16366.93,     1924978.17, ,
+     16637.98,     1924638.03, ,
+     16664.56,     1923859.43, ,
+     16797.42,     1923280.13, ,
+     16180.92,     1922674.26, ,
+     16164.98,     1921924.89, ,
+     16297.84,     1920984.19, ,
+     16924.98,     1920117.90, ,
+ END:
+
+REACH: 
+ STREAM ID: River_1         
+ REACH ID: 2               
+ FROM POINT:  3 
+ TO POINT:  1 
+ CENTERLINE:
+     22569.17,     1924497.19, ,
+     21112.94,     1923731.88, ,
+     19954.34,     1922637.05, ,
+     18285.53,     1921042.65, ,
+     16924.98,     1920117.90, ,
+ END:
+
+REACH: 
+ STREAM ID: River_1         
+ REACH ID: 3               
+ FROM POINT:  1 
+ TO POINT:  4 
+ CENTERLINE:
+     16924.98,     1920117.90, ,
+     16127.77,     1919713.98, ,
+     14597.15,     1919448.25, ,
+     12758.27,     1918236.50, ,
+     11589.04,     1917141.67, ,
+     9431.28,     1915908.67, ,
+     7443.59,     1914176.08, ,
+     5275.20,     1912177.76, ,
+     3510.72,     1910477.07, ,
+     2787.93,     1908244.90, ,
+     1873.80,     1906374.13, ,
+     -422.14,     1905183.64, ,
+     -2271.65,     1904439.59, ,
+ END:
+
+ENDSTREAMNETWORK:
+
+BEGIN CROSS-SECTIONS:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:1               
+    STATION:109724  
+    NODE NAME:                
+    CUT LINE:
+      17934.5158800028 , 1926545.69833118 
+      14968.6697261566 , 1927418.00602348 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:1               
+    STATION:105145  
+    NODE NAME:                
+    CUT LINE:
+      18423.0081876951 , 1925394.25217733 
+      14654.6389569259 , 1925917.63679271 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:1               
+    STATION:100231  
+    NODE NAME:                
+    CUT LINE:
+      18353.2235723105 , 1924242.80602348 
+      14584.8543415412 , 1924591.72910041 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:1               
+    STATION:94828   
+    NODE NAME:                
+    CUT LINE:
+      18911.5004953874 , 1922742.43679271 
+      14096.3620338489 , 1923091.35986964 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:1               
+    STATION:91426   
+    NODE NAME:                
+    CUT LINE:
+      18318.3312646182 , 1922009.69833118 
+      14305.7158800028 , 1921974.80602348 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:1               
+    STATION:89178   
+    NODE NAME:                
+    CUT LINE:
+      17620.485110772 , 1921311.85217733 
+      15038.4543415412 , 1921311.85217733 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:2               
+    STATION:333581.2
+    NODE NAME:                
+    CUT LINE:
+      19190.6389569259 , 1919218.31371579 
+      17201.7774184643 , 1922602.86756195 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:2               
+    STATION:257977.1
+    NODE NAME:                
+    CUT LINE:
+      20132.7312646182 , 1919916.15986964 
+      17934.5158800028 , 1923824.09833118 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:2               
+    STATION:174080.3
+    NODE NAME:                
+    CUT LINE:
+      21214.3928030797 , 1920474.43679271 
+      18457.9004953874 , 1924766.19063887 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:2               
+    STATION:96504   
+    NODE NAME:                
+    CUT LINE:
+      22714.762033849 , 1921486.31371579 
+      20167.6235723105 , 1925743.17525425 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:81792   
+    NODE NAME:                
+    CUT LINE:
+      17131.9928030797 , 1918660.03679271 
+      14305.7158800028 , 1921800.34448502 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:74355   
+    NODE NAME:                
+    CUT LINE:
+      14759.3158800028 , 1918136.65217733 
+      13049.5928030797 , 1920369.75986964 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:70572   
+    NODE NAME:                
+    CUT LINE:
+      13946.325110772 , 1917379.48910041 
+      12376.1712646182 , 1919298.56602349 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:66409   
+    NODE NAME:                
+    CUT LINE:
+      13363.6235723105 , 1916322.25217733 
+      10781.5928030797 , 1919008.95986964 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:60010   
+    NODE NAME:                
+    CUT LINE:
+      11479.4389569258 , 1915380.15986964 
+      9246.33126461814 , 1918031.97525426 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:52709   
+    NODE NAME:                
+    CUT LINE:
+      10048.8543415412 , 1913635.54448503 
+      7466.82357231043 , 1916740.95986964 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:46604   
+    NODE NAME:                
+    CUT LINE:
+      9804.60818769505 , 1910669.69833118 
+      5931.56203384887 , 1915868.65217733 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:41374   
+    NODE NAME:                
+    CUT LINE:
+      8757.83895692581 , 1909971.85217733 
+      4047.37741846424 , 1915310.37525425 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:34092   
+    NODE NAME:                
+    CUT LINE:
+      6978.33126461811 , 1908366.80602348 
+      2512.11588000269 , 1913914.68294656 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:27529   
+    NODE NAME:                
+    CUT LINE:
+      6175.80818769502 , 1906238.37525425 
+      1046.63895692576 , 1912798.12910041 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:18859   
+    NODE NAME:                
+    CUT LINE:
+      3523.99280307962 , 1905994.12910041 
+     -1081.791812305 , 1911786.25217733 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:12955   
+    NODE NAME:                
+    CUT LINE:
+      3244.85434154116 , 1903691.23679271 
+     -1430.7148892281 , 1909483.35986964 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:6712    
+    NODE NAME:                
+    CUT LINE:
+      1430.45434154114 , 1902818.92910041 
+     -2896.191812305 , 1908541.26756195 
+  END:
+
+  CROSS-SECTION:
+    STREAM ID:River_1         
+    REACH ID:3               
+    STATION:1449    
+    NODE NAME:                
+    CUT LINE:
+     -872.43796615117 , 1902609.57525425 
+     -3035.7610430742 , 1906971.11371579 
+  END:
+
+END CROSS-SECTIONS:
+
