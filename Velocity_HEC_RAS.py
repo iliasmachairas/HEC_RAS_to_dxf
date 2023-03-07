@@ -16,7 +16,7 @@ from shapely.geometry import Point
 import geopandas as gpd
 import shapely
 import ezdxf
-from zipfile import ZipFile
+import zipfile
 import matplotlib.pyplot as plt
 
 # Functions for rotation
@@ -319,7 +319,7 @@ with col2:
                         st.markdown("""# Download""")
                         
                         # Zip folder
-                        zipObj = ZipFile('Output_data.zip', 'w')
+                        zipObj = zipfile.ZipFile('Output_data.zip', 'w')
                         zipObj.write("Velocity_output.dxf")
                         zipObj.close()
                         
