@@ -125,7 +125,7 @@ with col2:
         
         ### Intersection
         
-        points_intersect = pl_geometry_concat.unary_union.intersection(cross_sections_geo_df_concat.unary_union)
+        points_intersect = pl_geometry_concat_dis.unary_union.intersection(cross_sections_geo_df_concat.unary_union)
         points_intersect_x = np.array([pt.x for pt in points_intersect])
         points_intersect_y = np.array([pt.y for pt in points_intersect])
         points_merge = np.vstack((points_intersect_x, points_intersect_y)).T
