@@ -16,7 +16,7 @@ from shapely.geometry import Point
 import geopandas as gpd
 import shapely
 import ezdxf
-import zipfile
+# import zipfile
 import matplotlib.pyplot as plt
 
 # Functions for rotation
