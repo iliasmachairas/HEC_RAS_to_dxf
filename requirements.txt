@@ -1,0 +1,8 @@
+plotly
+pandas
+numpy
+h5py
+shapely
+geopandas
+ezdxf
+zipfile
