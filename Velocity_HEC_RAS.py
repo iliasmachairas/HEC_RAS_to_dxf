@@ -148,7 +148,7 @@ with col2:
                     merge_table = pd.concat([points_intersect_coords, output_clip_final], axis=1)
                     
                     # Creating lines geo-dataframe
-                    geometry = [Point(xy) for xy in zip(merge_table.x, merge_table.y)]
+                    geometry = [shapely.Geomery.Point(xy) for xy in zip(merge_table.x, merge_table.y)]
                     geo_df = gpd.GeoDataFrame(merge_table, geometry=geometry)
                     
                     lines_array = []
