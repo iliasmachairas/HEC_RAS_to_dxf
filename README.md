@@ -11,3 +11,7 @@ The user may specify the ranges of velocity classes (high, medium, and low) and 
 The user may download two files:
 1.	a dxf file which contains three layers of velocity (high, medium and low). Line segments are categorized into three groups based on velocity.
 2.	a plot (.png) which depicts the velocity between the cross sections. A different color represents a different velocity class.
+
+There are some limitations though.
+1.	Profile name should not contain spaces
+2.	Cross sections need to intesect the river centerline (pay attention at the beginning and at the end of the river)
